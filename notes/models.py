@@ -33,7 +33,11 @@ class Note(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.slug:
-            max_slug_length = self._meta.get_field('slug').max_length
-            self.slug = slugify(self.title)[:max_slug_length]
+            self.slug = self.get_slug_by_title(self.title)
         super().save(*args, **kwargs)
 
+    @classmethod
+    def get_slug_by_title(cls, title):
+        """Формирование slug для заметки на основе заголовка."""
+        max_slug_length = cls._meta.get_field('slug').max_length
+        return slugify(title)[:max_slug_length]

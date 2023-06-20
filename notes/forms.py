@@ -21,7 +21,7 @@ class NoteForm(forms.ModelForm):
         slug = cleaned_data.get('slug')
         if not slug:
             title = cleaned_data.get('title')
-            slug = slugify(title)[:100]
+            slug = Note.get_slug_by_title(title)
         if Note.objects.filter(
                 slug=slug
         ).exclude(id=self.instance.pk).exists():
