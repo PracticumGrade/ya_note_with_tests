@@ -1,0 +1,138 @@
+[
+{
+    "model": "notes.note",
+    "pk": 1,
+    "fields": {
+        "title": "Введение в программирование",
+        "text": "Это заметка о основах программирования.",
+        "slug": "vvedenie-v-programmirovanie",
+        "author": 1
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 2,
+    "fields": {
+        "title": "Основы алгоритмов",
+        "text": "Здесь рассматриваются базовые алгоритмические концепции.",
+        "slug": "osnovy-algoritmov",
+        "author": 2
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 3,
+    "fields": {
+        "title": "Изучение языка Python",
+        "text": "Эта заметка посвящена изучению Python.",
+        "slug": "izuchenie-yazyka-python",
+        "author": 1
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 4,
+    "fields": {
+        "title": "Разработка веб-приложений",
+        "text": "В данной заметке рассматривается разработка веб-приложений.",
+        "slug": "razrabotka-veb-prilozheniy",
+        "author": 2
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 5,
+    "fields": {
+        "title": "Базы данных и SQL",
+        "text": "Заметка о базах данных и языке SQL.",
+        "slug": "bazy-dannykh-i-sql",
+        "author": 1
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 6,
+    "fields": {
+        "title": "Алгоритмы машинного обучения",
+        "text": "Эта заметка о различных алгоритмах машинного обучения.",
+        "slug": "algoritmy-mashinnogo-obucheniya",
+        "author": 2
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 7,
+    "fields": {
+        "title": "Основы сетевых технологий",
+        "text": "Рассмотрим основы сетевых технологий.",
+        "slug": "osnovy-setevykh-tekhnologiy",
+        "author": 1
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 8,
+    "fields": {
+        "title": "Разработка мобильных приложений",
+        "text": "Заметка о разработке мобильных приложений для iOS и Android.",
+        "slug": "razrabotka-mobilnykh-prilozheniy",
+        "author": 2
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 9,
+    "fields": {
+        "title": "Основы веб-разработки",
+        "text": "Эта заметка рассматривает основные концепции веб-разработки.",
+        "slug": "osnovy-veb-razrabotki",
+        "author": 1
+    }
+},
+{
+    "model": "notes.note",
+    "pk": 10,
+    "fields": {
+        "title": "Тестирование программного обеспечения",
+        "text": "Заметка о методах и инструментах тестирования ПО.",
+        "slug": "testirovanie-programmnogo-obespecheniya",
+        "author": 2
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$A1pFve9WrVH3yLwjX39CMQ$Fvdwc8knYM1PfSrvO+WTJrZKhY/0Vky96G5thYVcGvM=",
+        "last_login": "2023-06-20T17:01:27.093Z",
+        "is_superuser": true,
+        "username": "author",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-20T16:32:17.275Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$60ply4TG91uG5XwJQll9oY$76Jd5Y4h/PYKieA04bfb+qUsHojzl7P0TLIrhFg+Yw8=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "reader",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-06-20T16:32:37.297Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
